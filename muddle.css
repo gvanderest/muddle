@@ -1,0 +1,63 @@
+@import 'reset.css';
+
+body {
+    overflow: hidden;
+    background: #000;
+    line-height: 1.3;
+}
+
+.main-frame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-frame td {
+    vertical-align: top;
+}
+.main-frame > tbody > tr:first-child {
+    height: 100%;
+}
+.main-frame > tbody > tr:nth-child(2) {
+    height: 20px;
+}
+
+.output-window {
+    white-space: pre-wrap;
+    background: #000;
+    color: #aaa;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100%;
+    padding: 5px;
+}
+.input-window input {
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+
+.output-window, .input-window input {
+    font-family: 'Consolas', monospace;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.black { color: #000; }
+.red { color: #a00; }
+.lightred { color: #f00; }
+.blue { color: #22a; }
+.lightblue { color: #44f; }
+.green { color: #080; }
+.lightgreen { color: #0f0; }
+.yellow { color: #aa2; }
+.lightyellow { color: #ff0; }
+.magenta { color: #a0a; }
+.lightmagenta { color: #f0f; }
+.cyan { color: #4aa; }
+.lightcyan { color: #0ff; }
+.grey { color: #666; }
+.lightgrey { color: #aaa; }
+.white { color: #fff; }
+.reset { color: #aaa; }
